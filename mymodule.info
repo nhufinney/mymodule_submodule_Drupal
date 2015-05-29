@@ -1,0 +1,5 @@
+name = aaaa
+description = Custom Functions
+package = Epicodus
+core = 7.x
+files[] = mymodule.module
