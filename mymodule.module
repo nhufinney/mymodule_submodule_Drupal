@@ -1,9 +1,9 @@
 <?php
 
     function mymodule_form_alter(&$form, &$form_state, $form_id) {
-        print '<pre>';
-        print_r ($form);
-        print '</pre>';
+        // print '<pre>';
+        // print_r ($form);
+        // print '</pre>';
         if($form_id == 'comment_node_page_form') {
 
             $form['subject']['#access'] = 0;
